@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:background="@drawable/woodbackground">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="80dp"
+        android:text="Become a master of slicing fruit!🏆"
+        android:textColor="#FFA726"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="350dp"
+        android:layout_height="340dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="150dp"
+        android:text="swipe your finger across the screen to create a slicing motion  and slice as many fruit as you possibly can. Players must slice all fruit , each time fruit is missed you lose life , if three fruits are missed - the game ends. Bombs are occasionally thrown onto the screen and you should avoid them - if you slice them you lose a life"
+        android:textAlignment="center"
+        android:textColor="#FFA726"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET READY AND CHOP⚔️"
+        android:textAlignment="center"
+        android:textColor="#FFA726"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:layout_marginVertical="500dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="GoToMain"
+        app:srcCompat="@drawable/goback" />
+</RelativeLayout>
